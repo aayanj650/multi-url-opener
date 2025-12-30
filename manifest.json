@@ -1,12 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "Multi URL Opener Plus",
-  "description": "Open multiple URLs at once with a clean and colorful UI",
-  "version": "1.0",
+  "name": "Multi URL Opener Pro",
+  "description": "Open, save, and manage multiple URLs with smart controls",
+  "version": "2.0",
+  "author": "Vijay Malviya",
   "action": {
     "default_popup": "popup.html"
   },
   "permissions": [
-    "tabs"
-  ]
+    "tabs",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
