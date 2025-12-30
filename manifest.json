@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Multi URL Opener",
+  "name": "Multi URL Opener Plus",
+  "description": "Open multiple URLs at once with a clean and colorful UI",
   "version": "1.0",
-  "description": "Open multiple URLs at once",
-  "permissions": [
-    "tabs"
-  ],
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "permissions": [
+    "tabs"
+  ]
 }
