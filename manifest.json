@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Multi URL Opener",
+  "version": "1.0",
+  "description": "Open multiple URLs at once",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
